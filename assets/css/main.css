@@ -1,0 +1,27 @@
+.listwrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+  gap: 2%;
+}
+
+.listwrapper .goalwrapper {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  position: relative;
+}
+
+.listwrapper .goalwrapper h2 {
+  margin: 0;
+  position: absolute;
+  text-align: center;
+}
+
+.listwrapper .goalwrapper div svg {
+  width: 180px;
+  height: 180px;
+  padding: 5%;
+}
+/*# sourceMappingURL=main.css.map */
