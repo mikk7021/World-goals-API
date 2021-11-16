@@ -62,7 +62,7 @@ const goalDetails = async (goal_id) => {
     button.addEventListener('click', () =>{
         detailwrapper.classList.toggle('active')
     })
-    detailwrapper.append(description, img, detailTitle, detailIcon)
+    detailwrapper.append(img, detailTitle, description, colorhex, detailIcon,)
     detailwrapper.classList.toggle('active')
 
 
